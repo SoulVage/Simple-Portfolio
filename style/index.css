@@ -13,7 +13,7 @@
     --dark-color: #21243D;
     --light-color: #8695A4;
     --white-color: #FFFFFF;
-
+    --light-bg-color: #EDF7FA;
     /* font-sizes variables */
     
     --small-text: 14px;
@@ -41,6 +41,8 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Heebo";
     line-height: 1.6;
 }

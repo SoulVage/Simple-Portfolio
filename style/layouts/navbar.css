@@ -1,6 +1,7 @@
 .navbar-container {
     width: 70%;
     margin: 30px auto;
+    height: fit-content;
 }
 .navbar-container ul {
     float: right;
