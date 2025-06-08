@@ -1,0 +1,58 @@
+.activity-container {
+    width: 100%;
+    background-color: var(--light-bg-color);
+}
+.activity-inner {
+    width: 70%;
+    margin: 30px auto;
+}
+.activity-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.activity-bar .activity-title {
+    font-weight: 500;
+    color: var(--dark-color);
+    font-size: var(--semibold-text);
+}
+.activity-bar .viewall-btn {
+    font-size: var(--small-text);
+    color: var(--secondary-color);
+}
+.activity-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+.activity-content .content { 
+    background-color: var(--white-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.content .content-title {
+    color: var(--dark-color);
+    font-size: var(--extrabold-text);
+}
+.content .content-date {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.content .content-info {
+    font-size: var(--small-text);
+    color: var(--dark-color);
+}
+.content .vertical-line {
+    height: 20px;
+    width: 1px;
+    background-color: var(--dark-color);
+}
+.content .content-description {
+    font-size: var(--small-text);
+    color: var(--dark-color);
+}
