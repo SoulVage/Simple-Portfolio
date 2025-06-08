@@ -1,0 +1,5 @@
+/* importing font into the root */
+@font-face {
+    font-family: "Heebo";
+    src: url("../assets/font/Heebo-VariableFont_wght.ttf"); /* font path */
+}

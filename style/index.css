@@ -1,0 +1,45 @@
+@import url("../import/font.css");
+
+* {
+    margin: 0; /* resets margin */
+    padding: 0; /* resets padding */
+    box-sizing: border-box; /* makes width/height include padding */
+
+}
+:root {
+    --primary-color: #FF6464;
+    --secondary-color: #00A8CC;
+    --dark-color: #21243D;
+    --light-color: #8695A4;
+    --white-color: #FFFFFF;
+
+    /* font-sizes variables */
+    
+    --small-text: 16px;
+    --regular-text: 18px;
+    --semibold-text: 20px;
+    --bold-text: 22px;
+    --extrabold-text: 26px;
+    --semiblack-text: 30px;
+    --black-text: 44px;
+}
+button, input {
+    all: unset;
+}
+button, a {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol {
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Heebo";
+    line-height: 1.6;
+}
