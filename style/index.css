@@ -16,13 +16,13 @@
 
     /* font-sizes variables */
     
-    --small-text: 16px;
-    --regular-text: 18px;
-    --semibold-text: 20px;
-    --bold-text: 22px;
-    --extrabold-text: 26px;
-    --semiblack-text: 30px;
-    --black-text: 44px;
+    --small-text: 14px;
+    --regular-text: 16px;
+    --semibold-text: 18px;
+    --bold-text: 20px;
+    --extrabold-text: 24px;
+    --semiblack-text: 28px;
+    --black-text: 42px;
 }
 button, input {
     all: unset;
