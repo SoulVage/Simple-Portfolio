@@ -9,6 +9,7 @@
     z-index: 20;
     backdrop-filter: blur(7px);
     opacity: 0;
+    visibility: hidden;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -31,6 +32,7 @@
     text-wrap: nowrap;
 }
 .sidebar-menu.active {
+    visibility: visible;
     opacity: 1;
     width: 100%;
 }

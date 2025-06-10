@@ -21,6 +21,7 @@
     align-items: start;
     border-bottom: 1px solid #e5e5e5;
     gap: 25px;
+    cursor: pointer;
 }
 .feature-text {
     font-size: var(--semiblack-text);

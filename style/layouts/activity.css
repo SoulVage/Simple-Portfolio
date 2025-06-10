@@ -26,13 +26,20 @@
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
     gap: 20px;
+    cursor: pointer;
 }
-.activity-content .content { 
+.activity-content .content {
     background-color: var(--white-color);
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
 }
 .content .content-title {
     color: var(--dark-color);
@@ -55,4 +62,7 @@
 .content .content-description {
     font-size: var(--small-text);
     color: var(--dark-color);
+}
+.content:hover {
+    border-bottom: 2px solid var(--secondary-color);
 }
