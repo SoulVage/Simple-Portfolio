@@ -1,0 +1,36 @@
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100vh;
+    background-color: #fafafae8;
+    padding: 40px;
+    z-index: 20;
+    backdrop-filter: blur(7px);
+    opacity: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.sidebar-menu ol {
+}
+.sidebar-menu ol li {
+    margin-bottom: 40px;
+    
+}
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+}
+.sidebar-menu ol li a {
+    text-wrap: nowrap;
+}
+.sidebar-menu.active {
+    opacity: 1;
+    width: 100%;
+}

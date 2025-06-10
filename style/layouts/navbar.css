@@ -28,3 +28,9 @@
     color: var(--white-color);
     background-color: var(--secondary-color);
 }
+.burger-menu {
+    display: none;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 400;
+}

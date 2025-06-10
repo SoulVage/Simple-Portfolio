@@ -35,8 +35,8 @@
 @media screen and (max-width: 800px) {
     body {
         --small-text: 14px;
-        --regular-text: 13px;
-        --semibold-text: 14px;
+        --regular-text: 14px;
+        --semibold-text: 15px;
         --bold-text: 15px;
         --extrabold-text: 17px;
         --semiblack-text: 21px;
@@ -76,6 +76,12 @@
         align-items: center;
         max-width: 370px;
         flex-direction: column;
+    }
+    .navbar-container ul li {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
     }
 }
 @media screen and (max-width: 480px) {
