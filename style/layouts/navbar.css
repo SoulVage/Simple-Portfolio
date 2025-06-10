@@ -22,3 +22,9 @@
 .navbar-container ul li a:hover {
     color: var(--primary-color);
 }
+.navbar-btn {
+    font-size: var(--regular-text);
+    padding: 10px 20px;;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+}

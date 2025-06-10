@@ -30,13 +30,13 @@
     gap: 10px;
     align-items: center;
     color: var(--light-color);
-    font-size: var(--semibold-text);
+    font-size: var(--regular-text);
 }
 .feature-date {
     background-color: var(--dark-color);
     color: var(--white-color);
     padding: 5px 10px;
-    font-size: var(--regular-text);
+    font-size: var(--small-text);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
