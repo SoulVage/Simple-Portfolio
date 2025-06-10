@@ -19,7 +19,7 @@
     padding: 20px 0;
     display: flex;
     align-items: start;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     gap: 25px;
 }
 .feature-text {
