@@ -1,0 +1,88 @@
+@media screen and (max-width: 1600px) {
+    body {
+        --small-text: 13px;
+        --regular-text: 15px;
+        --semibold-text: 17px;
+        --bold-text: 18px;
+        --extrabold-text: 20px;
+        --semiblack-text: 23px;
+        --black-text: 41px;
+    }
+    .activity-inner,.feature-container,.footer-container,.navbar-container,.hero-container {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 1360px) {
+    .activity-inner,.feature-container,.footer-container,.navbar-container,.hero-container {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    body {
+        --black-text: 37px;
+    }
+    .activity-inner,.feature-container,.footer-container,.navbar-container,.hero-container {
+        width: 85%;
+    }
+    .hero-container .image-wrapper {
+        width: 280px;
+        height: 280px;
+        min-width: 280px;
+        position: relative;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    body {
+        --small-text: 14px;
+        --regular-text: 13px;
+        --semibold-text: 14px;
+        --bold-text: 15px;
+        --extrabold-text: 17px;
+        --semiblack-text: 21px;
+        --black-text: 33px;
+    }
+    .activity-inner,.feature-container,.footer-container,.navbar-container,.hero-container {
+        width: 89%;
+    }
+    .hero-container .image-wrapper {
+        width: 250px;
+        height: 250px;
+        min-width: 250px;
+        position: relative;
+    }
+    .hero-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .title-container {
+        align-items: center;
+    }
+    .title-container .hero-title , .title-container .paragraph-text {
+        text-align: center;
+    }
+    .activity-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 600px) {
+    .feature-container {
+        align-items: center;
+    }
+    .feature-content .feature-img {
+        width: 100%;
+    }
+    .feature-content {
+        align-items: center;
+        max-width: 370px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        --black-text: 25px;
+    }
+    .activity-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

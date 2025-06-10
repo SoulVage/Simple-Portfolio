@@ -19,6 +19,7 @@
 .title-container .paragraph-text {
     max-width: 500px;
     color: var(--dark-color);
+    font-size: var(--regular-text);
 }
 
 .hero-container .image-wrapper {
